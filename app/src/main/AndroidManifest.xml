@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.healthheart.jessica.hhmedic">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.PrincipalActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.BatimentosActivity" />
+        <activity android:name=".Activity.AddInfoBatimentosActivity" />
+        <activity android:name=".Activity.ParametrosBatimentosActivity" />
+        <activity android:name=".Activity.HistoricoParamentroBatimentosActivity" />
+        <activity android:name=".Activity.OxigenacaoActivity" />
+        <activity android:name=".Activity.AddInfoOxigenacaoActivity" />
+        <activity android:name=".Activity.HistoricoInfoatimentoActivity" />
+        <activity android:name=".Activity.HistoricoInfoOxigenacaoActivity" />
+        <activity android:name=".Activity.ParametrosOxigenacaoActivity" />
+        <activity android:name=".Activity.HistoricoOxigenacaoActivity" />
+        <activity android:name=".Activity.PressaoActivity" />
+        <activity android:name=".Activity.AddInfoPressaoActivity" />
+        <activity android:name=".Activity.ParametrosPressaoActivity" />
+        <activity android:name=".Activity.HistoricoInfoPressaoActivity" />
+        <activity android:name=".Activity.HistoricoParametroPressaoActivity" />
+        <activity android:name=".Activity.GlicoseActivity" />
+        <activity android:name=".Activity.AddInfoGlicoseActivity" />
+        <activity android:name=".Activity.ParametrosGlicoseActivity" />
+        <activity android:name=".Activity.HistoricoInfoGlicoseActivity" />
+        <activity android:name=".Activity.HistoricoParametroGlicoseActivity" />
+        <activity android:name=".Activity.PesoActivity" />
+        <activity android:name=".Activity.AddInfoPesoActivity" />
+        <activity android:name=".Activity.ParametrosPesoActivity" />
+        <activity android:name=".Activity.HistoricoInfoPesoActivity" />
+        <activity android:name=".Activity.HistoricoParametroPesoActivity" />
+        <activity android:name=".Activity.SaudeActivity" />
+        <activity android:name=".Activity.AddInfoMedicamentoActivity" />
+        <activity android:name=".Activity.HistoricoInfoMedicamentosActivity" />
+        <activity android:name=".Activity.AddInfoDoencasCardiActivity" />
+        <activity android:name=".Activity.HistoricoInfoDoeCardiActivity"></activity>
+    </application>
+
+</manifest>

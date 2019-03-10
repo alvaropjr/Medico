@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:gravity="center"
+    tools:context="com.healthheart.jessica.hhmedic.Activity.PrincipalActivity">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_medic_conf" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Configuração do App HH"
+        android:textColor="#0000CD"
+        android:textSize="20dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <!-- CELULAR
+            android:layout_width="110dp"
+            android:layout_height="94dp"-->
+
+        <!-- TABLET MENOR
+           android:layout_width="150dp"
+            android:layout_height="134dp"-->
+
+        <ImageButton
+            android:id="@+id/imgbntBatimento"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_batimentosazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbntOxigenacao"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_oxigenacaoazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnPressao"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_pressaoazul_menor" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgbtnGlicose"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_glicosazul_menor" />
+
+        <ImageButton
+            android:id="@+id/imgbtnPeso"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_pesoazul_menor" />
+
+        <!--  <ImageButton
+              android:id="@+id/imgbtnMedicamento"
+              android:layout_width="110dp"
+              android:layout_height="94dp"
+              android:layout_marginLeft="5dp"
+              android:background="@drawable/ic_menu_medica_menor" /> -->
+
+
+        <ImageButton
+            android:id="@+id/imgbtnSaude"
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_menu_saude" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_sonoazul_menor" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_bebidas_menor" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="94dp"
+            android:background="@drawable/ic_alimentoazul_menor" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="@string/txt_Direitos" />
+
+</LinearLayout>

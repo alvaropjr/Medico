@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.healthheart.jessica.hhmedic.Activity.HistoricoInfoMedicamentosActivity">
+
+    <Button
+        android:id="@+id/btnVoltarPrinpal"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Principal"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_medic_conf" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Histórico Informações Medicamentos"
+        android:textColor="#66CDAA"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAddInfMedic"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#66CDAA"
+            android:text="Add Info. Medicamentos"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#66CDAA"
+            android:text="Histórico Info. Medicamentos"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Página demostrativa"
+        android:textSize="20dp"
+        android:textColor="#97496d"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

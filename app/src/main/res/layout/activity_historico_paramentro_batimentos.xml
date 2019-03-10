@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.healthheart.jessica.hhmedic.Activity.HistoricoParamentroBatimentosActivity">
+
+
+    <Button
+        android:id="@+id/btnVoltarPrinpal"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="149dp"
+        android:layout_height="30dp"
+        android:text="Voltar Tela Principal"
+        android:textSize="8sp" />
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="123dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_medic_conf" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Parâmetros Batimentos Cardíacos"
+        android:textColor="#CD9B9B"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVoltaParaBatimentos"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#CD9B9B"
+            android:text="Add Parâmetros Batimentos"
+            android:textColorLink="@color/colorPrimaryDark" />
+
+        <Button
+        android:id="@+id/btnHistParaBatimentos"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#CD9B9B"
+        android:text="Histórico Parâmetros Batimentos"
+        android:textColorLink="@color/colorPrimaryDark" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvHisParatBatimentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+
+
+</LinearLayout>
